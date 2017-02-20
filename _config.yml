@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: しょぶろぐ
+subtitle: 猫好きエンジニアの勉強日記
+description: 猫を愛するエンジニアが日々の勉強の成果を公開する為のブログです。 
+author: せっきー
+language: jp
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://mzm32997.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
