@@ -12,11 +12,15 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://mzm32997.github.io
+url: https://h-sekiyama.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
+# stylus
+stylus:
+  compress: true
+ 
 # Directory
 source_dir: source
 public_dir: public
@@ -63,12 +67,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:mzm32997/mzm32997.github.io.git
+  repo: git@github.com:h-sekiyama/h-sekiyama.github.io.git
   branch: master
   message: init commit
